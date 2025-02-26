@@ -3,7 +3,7 @@ import Image from "next/image"
 
 function Navbar() {
   return (
-    <nav className="flex justify-between items-center p-6 bg-transparent mx-20 sticky">
+    <nav className="flex justify-between items-center p-6 bg-transparent mx-20 sticky top-0">
       <div>
         <Image
           src="/assets/logo.png"

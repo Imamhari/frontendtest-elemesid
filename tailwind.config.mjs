@@ -7,14 +7,11 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        sans: ['Rubik', 'sans-serif'],
       },
     },
-    fontFamily: {
-      sans: ['Rubik', 'sans-serif'],
-    },
+    
   },
   plugins: [],
 };
