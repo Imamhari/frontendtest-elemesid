@@ -79,14 +79,14 @@ function Carousel() {
       <div className="flex justify-end mr-20 gap-4">
         <button
           onClick={prevSlide}
-          className="flex justify-center items-center gap-2 w-[113px] h-[50px] bg-[#8BAC3E] text-white rounded-full shadow-md hover:bg-[#8BAC3E] transition"
+          className="flex justify-center items-center gap-2 w-[113px] h-[50px] bg-[#8BAC3E] text-white rounded-full shadow-md hover:bg-[#A4B441] transition"
         >
           <ChevronLeft size={20} className="bg-white text-[#8BAC3E] rounded-full w-[33px] h-[33px]" />
           PREV
         </button>
         <button
           onClick={nextSlide}
-          className="flex justify-center items-center gap-2 px-4 py-2 bg-[#8BAC3E] text-white rounded-full shadow-md hover:bg-[#8BAC3E] transition w-[113px] h-[50px]"
+          className="flex justify-center items-center gap-2 px-4 py-2 bg-[#8BAC3E] hover:bg-[#A4B441] text-white rounded-full shadow-md  transition w-[113px] h-[50px]"
         >
           NEXT
           <ChevronRight size={20} className="bg-white text-[#8BAC3E] rounded-full w-[33px] h-[33px]" />

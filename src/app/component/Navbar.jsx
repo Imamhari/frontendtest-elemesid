@@ -31,10 +31,10 @@ function Navbar() {
         </li>
       </ul>
       <div className="flex space-x-4">
-        <button className="text-gray-700 font-semibold">
+        <button className="text-gray-700 font-semibold hover:text-[#8BAC3E]">
           <a href="/notfoundpage">Masuk</a>{" "}
         </button>
-        <button className="bg-[#8BAC3E] text-white px-4 py-2 rounded-full">
+        <button className="bg-[#8BAC3E] text-white px-4 py-2 rounded-full hover:bg-[#A4B441]">
           <a href="/notfoundpage">Daftar Sekarang</a>
         </button>
       </div>

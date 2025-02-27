@@ -18,13 +18,13 @@ function Footer() {
             Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12950
           </p>
           <div className="flex gap-[32px]">
-            <div className="text-[#8BAC3E] hover:text-white hover:bg-[#8BAC3E] bg-[40px] rounded-full w-[40px] h-[40px] flex justify-center items-center cursor-pointer">
+            <div className="text-[#8BAC3E] hover:text-white hover:bg-[#8BAC3E] bg-[40px] rounded-full w-[40px] h-[40px] flex justify-center items-center cursor-pointer transition duration-500">
               <Mail />
             </div>
-            <div className="text-[#8BAC3E] hover:text-white hover:bg-[#8BAC3E] bg-[40px] rounded-full w-[40px] h-[40px] flex justify-center items-center cursor-pointer">
+            <div className="text-[#8BAC3E] hover:text-white hover:bg-[#8BAC3E] bg-[40px] rounded-full w-[40px] h-[40px] flex justify-center items-center cursor-pointer transition duration-500">
               <Phone />
             </div>
-            <div className="text-[#8BAC3E] hover:text-white hover:bg-[#8BAC3E] bg-[40px] rounded-full w-[40px] h-[40px] flex justify-center items-center cursor-pointer">
+            <div className="text-[#8BAC3E] hover:text-white hover:bg-[#8BAC3E] bg-[40px] rounded-full w-[40px] h-[40px] flex justify-center items-center cursor-pointer transition duration-500">
               <Instagram />
             </div>
           </div>
@@ -52,7 +52,7 @@ function Footer() {
               placeholder="Your email address"
               className="border border-black rounded-l-lg w-[300px] h-[40px] pl-4"
             />
-            <button className="bg-[#8BAC3E] text-white px-4 py-2 rounded-r-lg">
+            <button className="bg-[#8BAC3E] text-white px-4 py-2 rounded-r-lg hover:bg-[#A4B441]">
               SEND
             </button>
           </div>

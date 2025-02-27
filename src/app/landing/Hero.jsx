@@ -15,10 +15,10 @@ function Hero() {
           of the food that we buy.
         </p>
         <div className="flex gap-5">
-          <button className="bg-[#8BAC3E] shadow-[0px_8px_32px_0px_#666BE259] text-white rounded-full w-[147px] h-[42px]">
+          <button className="bg-[#8BAC3E] hover:bg-[#A4B441] shadow-[0px_8px_32px_0px_#666BE259] text-white rounded-full w-[147px] h-[42px]">
             <a href="/notfoundpage">Daftar Sekarang</a>
           </button>
-          <button className="bg-[#F2F2F2] text-black rounded-full w-[92px] h-[42px]">
+          <button className="bg-[#F2F2F2] hover:bg-[#E6F3F5] text-black rounded-full w-[92px] h-[42px]">
             <a href="/notfoundpage">About Us</a>
           </button>
         </div>

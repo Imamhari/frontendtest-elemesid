@@ -97,7 +97,7 @@ function Trending() {
         ))}
       </div>
       <div className="flex justify-center mt-4">
-      <button className='bg-[#8BAC3E] text-white rounded-full w-[160px] h-[50px]'>ALL Receipt</button>
+      <button className='bg-[#8BAC3E] text-white rounded-full w-[160px] h-[50px] hover:bg-[#A4B441]'>ALL Receipt</button>
       </div>
     </section>
   );

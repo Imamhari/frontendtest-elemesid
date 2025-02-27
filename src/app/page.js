@@ -12,7 +12,6 @@ export default function Landing() {
       <Category/>
       <Trending/>
       <Footer/>
-      
     </main>
   );
 }
