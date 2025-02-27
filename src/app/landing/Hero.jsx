@@ -17,11 +17,11 @@ function Hero() {
           <button className='bg-[#F2F2F2] text-black rounded-full w-[92px] h-[42px]'>About Us</button>
         </div>
       </div>
-      <div className="w-[651px] h-[663.62px] top-[37px] left-[701px]">
+      <div className="w-[603px] h-[663.62px] top-[37px] left-[701px]">
         <Image
           src="/assets/Group 385.png"
           width={1000}
-          height={300}
+          height={530}
           alt="food"
           priority
         />
