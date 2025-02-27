@@ -1,9 +1,9 @@
 .container {
   background-image: url('/assets/backgroud.png');
-  opacity: 0.03;
+  opacity: 0.05;
   background-position: center;
   background-repeat: no-repeat;
-  height: 80%;
+  height: 75%;
   width: 100%; 
   display: flex;
   align-items: center;

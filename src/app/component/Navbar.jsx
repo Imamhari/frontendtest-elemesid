@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Navbar() {
   return (
-    <nav className="flex justify-between items-center p-6 bg-transparent sticky top-0 z-10 w-[1440px] h-[96px]">
+    <nav className="flex justify-between items-center p-6 bg-transparent sticky top-0 z-50  w-full max-w-screen-xl xl:max-w-screen-2xl  mx-auto xl:w-[1440px]">
       <div>
         <Image
           src="/assets/logo.png"
@@ -31,8 +31,8 @@ function Navbar() {
         </li>
       </ul>
       <div className="flex space-x-4">
-        <button className="text-gray-700 font-semibold hover:text-[#8BAC3E]">
-          <a href="/notfoundpage">Masuk</a>{" "}
+        <button className="text-gray-700 font-semibold hover:text-[#8BAC3E] hidden md:block">
+          <a href="/notfoundpage">Masuk</a>
         </button>
         <button className="bg-[#8BAC3E] text-white px-4 py-2 rounded-full hover:bg-[#A4B441]">
           <a href="/notfoundpage">Daftar Sekarang</a>

@@ -61,17 +61,17 @@ const items = [
 
 function Trending() {
   return (
-    <section className="flex flex-col p-6 w-[1440px] h-[1039px] gap-4">
+    <section className="flex flex-col p-6 xl:w-[1440px] xl:h-[1039px] xl:max-w-screen-2xl max-w-screen-xl mx-auto gap-4 w-full">
       <div className="flex flex-col items-start">
-        <h3 className="font-medium text-[38px] leading-[50px] tracking-[0%]">
+        <h3 className="font-medium text-[24px] md:text-[38px] leading-[36px] md:leading-[50px]">
           Browser Our Trending
         </h3>
-        <span className="font-medium text-[38px] leading-[50px] tracking-[0%] text-[#8BAC3E]">
+        <span className="font-medium text-[24px] md:text-[38px] leading-[36px] md:leading-[50px] text-[#8BAC3E]">
           Receipt
         </span>
       </div>
       {/* Pake Grid */}
-      <div className="grid grid-cols-4 gap-6 mt-6">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">
         {items.map((item, index) => (
           <div
             key={index}
