@@ -6,7 +6,7 @@ import Footer from './landing/Footer';
 
 export default function Landing() {
   return (
-    <main className='flex flex-col items-center h-[2843px]'>
+    <main className='flex flex-col items-center '>
       <Navbar/>
       <Hero/>
       <Category/>

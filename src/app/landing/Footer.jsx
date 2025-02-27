@@ -3,8 +3,8 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <>
-      <section className="hidden xl:block">
+    <section>
+      <div className="hidden xl:block">
         <div className="flex justify-between w-[1470px] h-[423px] gap-4 border rounded-xl bg-[#F9FFF6] p-20">
           <div className="flex flex-col w-[335px] h-[127px] gap-5 ">
             <Image
@@ -73,8 +73,8 @@ function Footer() {
         <p className="font-normal text-[12px] leading-[16px] tracking-[5%] text-[#757575] mt-3 flex justify-center">
           © 2021 ELEMES ID. ALL RIGHTS RESERVED
         </p>
-      </section>
-      <div className="text-[#757575] flex justify-between  xl:hidden fixed bottom-0 w-screen p-7 bg-white ">
+      </div>
+      <div className=" bottom-0 w-screen mx-5 text-[#757575] flex justify-between   md:hidden  bg-white ">
         <button className="flex flex-col items-center">
           <Menu />
           <p>Home</p>
@@ -88,7 +88,7 @@ function Footer() {
           <p>Others</p>
         </button>
       </div>
-    </>
+    </section>
   );
 }
 

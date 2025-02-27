@@ -73,7 +73,7 @@ const items = [
 function Carousel() {
   return (
     <section className="flex flex-col">
-      <div className="w-[1333px] h-[215px]">
+      <div className="w-full h-[215px]">
       <Swiper
         modules={[Navigation, Autoplay]}
         spaceBetween={7}
@@ -85,7 +85,14 @@ function Carousel() {
         
         autoplay={{ delay: 3000 }}
         loop={true}
-        className="flex justify-center max-w-screen xl:max-w-screen-2xl h-[200px]  items-center"
+        breakpoints={{
+          320: { slidesPerView: 1 },  // HP kecil
+          480: { slidesPerView: 2 },  // HP besar
+          768: { slidesPerView: 3 },  // Tablet
+          1024: { slidesPerView: 4 }, // Laptop
+          1280: { slidesPerView: 5 }, // Desktop
+        }}
+        className="w-full h-[200px] flex justify-center items-center"
       >
         {items.map((item, index) => (
           <SwiperSlide key={index} className="flex justify-center items-center pt-4">

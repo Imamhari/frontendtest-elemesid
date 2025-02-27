@@ -71,7 +71,7 @@ function Trending() {
         </span>
       </div>
       {/* Pake Grid */}
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">
+      <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
         {items.map((item, index) => (
           <div
             key={index}
