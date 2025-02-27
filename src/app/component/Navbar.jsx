@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image"
+import Image from "next/image";
 
 function Navbar() {
   return (
@@ -14,16 +14,28 @@ function Navbar() {
         />
       </div>
       <ul className="hidden md:flex space-x-6 font-semibold text-gray-500">
-        <li className="hover:text-green-500 cursor-pointer">Home</li>
-        <li className="hover:text-green-500 cursor-pointer">About</li>
-        <li className="hover:text-green-500 cursor-pointer">Promotions</li>
-        <li className="hover:text-green-500 cursor-pointer">Blogs</li>
-        <li className="hover:text-green-500 cursor-pointer">Contact Us</li>
+        <li className="hover:text-[#8BAC3E] cursor-pointer">
+          <a href="/notfoundpage">Home</a>
+        </li>
+        <li className="hover:text-[#8BAC3E] cursor-pointer">
+          <a href="/notfoundpage">About</a>
+        </li>
+        <li className="hover:text-[#8BAC3E] cursor-pointer">
+          <a href="/notfoundpage">Promotions</a>
+        </li>
+        <li className="hover:text-[#8BAC3E] cursor-pointer">
+          <a href="/notfoundpage">Blogs</a>
+        </li>
+        <li className="hover:text-[#8BAC3E] cursor-pointer">
+          <a href="/notfoundpage">Contact Us</a>
+        </li>
       </ul>
       <div className="flex space-x-4">
-        <button className="text-gray-700 font-semibold">Masuk</button>
+        <button className="text-gray-700 font-semibold">
+          <a href="/notfoundpage">Masuk</a>{" "}
+        </button>
         <button className="bg-[#8BAC3E] text-white px-4 py-2 rounded-full">
-          Daftar Sekarang
+          <a href="/notfoundpage">Daftar Sekarang</a>
         </button>
       </div>
     </nav>
