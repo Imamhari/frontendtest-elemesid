@@ -48,7 +48,7 @@ function Carousel() {
 
   return (
     <section className="flex flex-col">
-      <div className="flex justify-center overflow-hidden w-[1333px] h-[215px] p-[10px] gap-5">
+      <div className="flex justify-center overflow-hidden max-w-screen xl xl:max-w-screen-2xl  w-[1333px] h-[215px] p-[10px] gap-5">
         {items.map((item, index) => (
           <div
             key={index}
