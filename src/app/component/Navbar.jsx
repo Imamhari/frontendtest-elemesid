@@ -13,7 +13,7 @@ function Navbar() {
           priority
         />
       </div>
-      <ul className="hidden md:flex space-x-6 font-semibold text-gray-500">
+      <ul className="hidden md:flex gap-[32px] font-semibold text-gray-500">
         <li className="hover:text-[#8BAC3E] cursor-pointer">
           <a href="/notfoundpage">Home</a>
         </li>
@@ -21,7 +21,10 @@ function Navbar() {
           <a href="/notfoundpage">About</a>
         </li>
         <li className="hover:text-[#8BAC3E] cursor-pointer">
-          <a href="/notfoundpage">Promotions</a>
+          <span className="absolute top-3 ml-[60px] bg-red-500 text-white text-xs font-bold px-2 py-0.5 rounded-md">
+            HOT
+          </span>
+          <a href="/notfoundpage">Promotions </a>
         </li>
         <li className="hover:text-[#8BAC3E] cursor-pointer">
           <a href="/notfoundpage">Blogs</a>
