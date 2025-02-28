@@ -74,7 +74,7 @@ function Footer() {
           © 2021 ELEMES ID. ALL RIGHTS RESERVED
         </p>
       </div>
-      <div className=" bottom-0 w-screen mx-5 text-[#757575] flex justify-between   md:hidden  bg-white ">
+      <div className=" bottom-0 w-screen px-5 text-[#757575] flex justify-between   md:hidden  bg-white ">
         <button className="flex flex-col items-center">
           <Menu />
           <p>Home</p>
