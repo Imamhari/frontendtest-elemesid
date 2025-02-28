@@ -111,7 +111,7 @@ function Carousel() {
               <h4 className="relative z-10 text-lg font-semibold">
                 {item.name}
               </h4>
-              <p className="relative z-10 text-sm">{item.count}</p>
+              <p className="relative z-10 text-sm">{item.count} Items</p>
             </div>
           </SwiperSlide>
         ))}
