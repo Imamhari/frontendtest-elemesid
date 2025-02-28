@@ -76,7 +76,6 @@ function Carousel() {
       <div className="w-full h-[215px]">
       <Swiper
         modules={[Navigation, Autoplay]}
-        spaceBetween={7}
         slidesPerView={5}
         navigation={{
           nextEl: ".next-btn",
@@ -95,9 +94,9 @@ function Carousel() {
         className="w-full h-[200px] flex justify-center items-center"
       >
         {items.map((item, index) => (
-          <SwiperSlide key={index} className="flex justify-center items-center pt-4">
+          <SwiperSlide key={index} className="flex justify-center items-center pt-3 pl-4">
             <div
-              className={`${item.bg} relative flex flex-col items-center justify-center w-[230px] h-[175px]  rounded-xl shadow-lg transition-all duration-300 cursor-pointer hover:scale-110 hover:z-20`}
+              className={`${item.bg} relative flex flex-col items-center justify-center w-[250px] h-[175px]  rounded-xl shadow-lg transition-all duration-300 cursor-pointer hover:scale-110 hover:z-20`}
             >
               <div
                 className="absolute inset-0 bg-cover bg-center opacity-0 hover:opacity-20 transition-opacity"

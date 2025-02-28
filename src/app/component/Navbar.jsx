@@ -13,7 +13,7 @@ function Navbar() {
           priority
         />
       </div>
-      <ul className="hidden md:flex gap-[32px] font-semibold text-gray-500">
+      <ul className="hidden xl:flex gap-[32px] font-semibold text-gray-500">
         <li className="hover:text-[#8BAC3E] cursor-pointer">
           <a href="/notfoundpage">Home</a>
         </li>
